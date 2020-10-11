@@ -1,4 +1,4 @@
-# echoboot
+# boot
 
 boot 是一个能够简化 Echo 框架下路由管理的库
 
@@ -27,7 +27,7 @@ func main() {
     e := echo.New()
 
     // 注册默认的 Fiber 实例并运行
-    boot.Strap(e)
+    boot.Init(e)
 
     e.Logger.Fatal(e.Start(":8080"))
 }

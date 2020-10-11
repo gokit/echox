@@ -372,3 +372,9 @@ func main() {
 ```
 
 
+## Thanks & Authors
+
+Forked from gin-contrib/sessions
+
+- [gin-contrib/sessions](https://github.com/gin-contrib/sessions) Gin middleware for session management
+
